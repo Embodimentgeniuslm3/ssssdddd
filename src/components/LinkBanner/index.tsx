@@ -8,7 +8,7 @@ export default function LinkBanner() {
     <Container backgroundColor="color-ink-md">
       <ExternalLinkWrapper>
         <ExternalLink href={links.GITHUB} graphic="black">
-          <Logo alt={img.GITHUB.alt} src={img.GITHUB.darkSrc} />
+          <Logo src="/assets/github.svg" />
           Amplify GitHub
         </ExternalLink>
       </ExternalLinkWrapper>
@@ -20,13 +20,13 @@ export default function LinkBanner() {
       </ExternalLinkWrapper>
       <ExternalLinkWrapper>
         <ExternalLink href={links.MARKETING} graphic="black">
-          <Logo alt={img.AWS.alt} src={img.AWS.darkSrc} />
+          <Logo src="/assets/aws-dark.svg" />
           Amplify Resources
         </ExternalLink>
       </ExternalLinkWrapper>
       <ExternalLinkWrapper>
         <ExternalLink href={links.COMMUNITY} graphic="black">
-          <Logo alt={img.AMPLIFY.alt} src={img.AMPLIFY.darkSrc} />
+          <Logo src="/assets/logo-dark.svg" />
           Amplify Community
         </ExternalLink>
       </ExternalLinkWrapper>

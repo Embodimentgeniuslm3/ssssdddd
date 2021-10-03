@@ -4,6 +4,9 @@ import docs from "@aws-amplify/ui-components/dist/docs";
 import {tableGeneratorMap} from "../TableGenerator";
 import {WebComponentProps} from "../../utils/ui-component-props.types";
 import {ATTR_HEADER, CSS_HEADER, SLOTS_HEADER} from "../../constants/strings";
+import getElementTop from "../../utils/get-element-top";
+
+const stickyHeaderHeight = 54;
 
 export const headerNames: Record<WebComponentProps, string> = {
   attr: ATTR_HEADER,
@@ -39,7 +42,20 @@ export default function UiComponentProps({
 function Header({useTableHeaders = false, propType = "attr", component}) {
   const sectionId = `props-${propType}-${component?.tag}`;
   return useTableHeaders ? (
-    <a href={"#" + sectionId}>
+    <a
+      href={"#" + sectionId}
+      onClick={(e) => {
+        e.preventDefault();
+        const top = getElementTop(
+          document.getElementById(sectionId),
+          stickyHeaderHeight,
+        );
+        if (top !== window.scrollY) {
+          window.scrollTo({top});
+          history.replaceState(undefined, document.title, `#${sectionId}`);
+        }
+      }}
+    >
       <h2 id={sectionId}>{headerNames[propType]}</h2>
     </a>
   ) : (

@@ -20,12 +20,12 @@ const internalLinkPlugin = () => (tree) => {
         ...[
           {
             type: "jsx",
-            value: `<ExternalLink href="${url}">`,
+            value: `<ExternalLink href="${url}"><a>`,
           },
           ...children,
           {
             type: "jsx",
-            value: "</ExternalLink>",
+            value: "</a></ExternalLink>",
           },
         ],
       );

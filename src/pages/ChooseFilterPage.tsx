@@ -82,10 +82,7 @@ function ChooseFilterPage({
               href={`${url}/q/${filterKind}/${filter}`}
               key={filter}
             >
-              <CardGraphic
-                alt={filterMetadataByOption[filter].label + " icon"}
-                src={filterMetadataByOption[filter].graphicURI}
-              />
+              <CardGraphic src={filterMetadataByOption[filter].graphicURI} />
               <CardDetail>
                 <h4>{filterMetadataByOption[filter].label}</h4>
               </CardDetail>
