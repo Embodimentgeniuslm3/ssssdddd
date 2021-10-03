@@ -1,0 +1,13 @@
+{
+  "title": "DataStore",
+  "items": [
+    "getting-started",
+    "data-access",
+    "real-time",
+    "sync",
+    "relational",
+    "conflict",
+    "schema-updates",
+    "how-it-works"
+  ]
+}
