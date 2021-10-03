@@ -1,0 +1,17 @@
+{
+  "title": "Storage",
+  "items": [
+    "getting-started",
+    "overview",
+    "upload",
+    "download",
+    "list",
+    "remove",
+    "cancel-requests",
+    "configureaccess",
+    "autotrack",
+    "triggers",
+    "escapehatch",
+    "existing-resources"
+  ]
+}
