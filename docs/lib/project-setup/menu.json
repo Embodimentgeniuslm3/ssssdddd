@@ -1,0 +1,13 @@
+{
+  "title": "Project Setup",
+  "items": [
+    "prereq",
+    "create-application",
+    "null-safety",
+    "combine",
+    "async",
+    "coroutines",
+    "rxjava",
+    "use-existing-resources"
+  ]
+}
