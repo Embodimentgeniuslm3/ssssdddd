@@ -1,0 +1,10 @@
+{
+  "title": "Functions",
+  "items": [
+    "function",
+    "layers",
+    "env-vars",
+    "secrets",
+    "build-options"
+  ]
+}

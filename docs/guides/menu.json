@@ -1,0 +1,12 @@
+{
+  "title": "Guides",
+  "items": [
+    "api-graphql",
+    "api-rest",
+    "authentication",
+    "datastore",
+    "functions",
+    "hosting",
+    "location-service"
+  ]
+}
