@@ -1,0 +1,2 @@
+- [Install Xcode](https://developer.apple.com/xcode/downloads/) version 11.4 or later.
+- [Install CocoaPods](https://guides.cocoapods.org/)
