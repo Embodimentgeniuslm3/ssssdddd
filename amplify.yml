@@ -1,0 +1,18 @@
+version: 0.1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - yarn install
+    build:
+      commands:
+        - NODE_ENV=production yarn build
+        - NODE_ENV=production yarn export
+  artifacts:
+    # IMPORTANT - Please verify your build output directory
+    baseDirectory: /client/www/next-build
+    files:
+      - "**/*"
+  cache:
+    paths:
+      - node_modules/**/*
