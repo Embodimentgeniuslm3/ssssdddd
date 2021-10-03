@@ -22,7 +22,7 @@ export default function UniversalNav({heading, brandIcon, blend}) {
           <Branding>
             <Link href="/">
               <a>
-                <img alt="Amplify icon" src={brandIcon} />
+                <img src={brandIcon} />
                 <span>{heading}</span>
               </a>
             </Link>

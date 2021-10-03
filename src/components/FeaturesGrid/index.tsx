@@ -16,7 +16,7 @@ export default function FeaturesGrid() {
           }}
         >
           <Card href="/lib/auth/getting-started" className="border-radius">
-            <CardGraphic alt="Auth icon" src="/assets/features/auth.svg" />
+            <CardGraphic src="/assets/features/auth.svg" />
             <CardDetail>
               <h4>Authentication</h4>
               <p>
@@ -26,10 +26,7 @@ export default function FeaturesGrid() {
             </CardDetail>
           </Card>
           <Card href="/lib/storage/getting-started" className="border-radius">
-            <CardGraphic
-              alt="Storage icon"
-              src="/assets/features/storage.svg"
-            />
+            <CardGraphic src="/assets/features/storage.svg" />
             <CardDetail>
               <h4>Storage</h4>
               <p>
@@ -42,7 +39,7 @@ export default function FeaturesGrid() {
             href="/lib/graphqlapi/getting-started"
             className="border-radius"
           >
-            <CardGraphic alt="API icon" src="/assets/features/api.svg" />
+            <CardGraphic src="/assets/features/api.svg" />
             <CardDetail>
               <h4>GraphQL API</h4>
               <p>
@@ -52,10 +49,7 @@ export default function FeaturesGrid() {
             </CardDetail>
           </Card>
           <Card href="/lib/datastore/getting-started" className="border-radius">
-            <CardGraphic
-              alt="DataStore icon"
-              src="/assets/features/datastore.svg"
-            />
+            <CardGraphic src="/assets/features/datastore.svg" />
             <CardDetail>
               <h4>DataStore</h4>
               <p>
@@ -64,20 +58,8 @@ export default function FeaturesGrid() {
               </p>
             </CardDetail>
           </Card>
-          <Card
-            href="/lib/geo/getting-started/q/platform/js/"
-            className="border-radius"
-          >
-            <CardGraphic src="/assets/features/geo.svg" />
-            <CardDetail>
-              <h4>Geo</h4>
-              <p>
-                Add modern, interactive maps with location markers and location search to your JavaScript-based web projects.
-              </p>
-            </CardDetail>
-          </Card>
           <Card href="/lib/restapi/getting-started" className="border-radius">
-            <CardGraphic alt="API icon" src="/assets/features/api.svg" />
+            <CardGraphic src="/assets/features/api.svg" />
             <CardDetail>
               <h4>REST API</h4>
               <p>
@@ -87,10 +69,7 @@ export default function FeaturesGrid() {
             </CardDetail>
           </Card>
           <Card href="/lib/analytics/getting-started" className="border-radius">
-            <CardGraphic
-              alt="Analytics icon"
-              src="/assets/features/analytics.svg"
-            />
+            <CardGraphic src="/assets/features/analytics.svg" />
             <CardDetail>
               <h4>Analytics</h4>
               <p>
@@ -103,10 +82,7 @@ export default function FeaturesGrid() {
             href="/lib/push-notifications/getting-started"
             className="border-radius"
           >
-            <CardGraphic
-              alt="Push Notifications icon"
-              src="/assets/features/push-notifications.svg"
-            />
+            <CardGraphic src="/assets/features/push-notifications.svg" />
             <CardDetail>
               <h4>Push Notifications</h4>
               <p>
@@ -116,7 +92,7 @@ export default function FeaturesGrid() {
             </CardDetail>
           </Card>
           <Card href="/lib/xr/getting-started" className="border-radius">
-            <CardGraphic alt="XR icon" src="/assets/features/xr.svg" />
+            <CardGraphic src="/assets/features/xr.svg" />
             <CardDetail>
               <h4>XR</h4>
               <p>
@@ -126,7 +102,7 @@ export default function FeaturesGrid() {
             </CardDetail>
           </Card>
           <Card href="/lib/pubsub/getting-started" className="border-radius">
-            <CardGraphic alt="PubSub icon" src="/assets/features/pubsub.svg" />
+            <CardGraphic src="/assets/features/pubsub.svg" />
             <CardDetail>
               <h4>PubSub</h4>
               <p>
@@ -139,10 +115,7 @@ export default function FeaturesGrid() {
             href="/lib/interactions/getting-started"
             className="border-radius"
           >
-            <CardGraphic
-              alt="Interactions icon"
-              src="/assets/features/interactions.svg"
-            />
+            <CardGraphic src="/assets/features/interactions.svg" />
             <CardDetail>
               <h4>Interactions</h4>
               <p>
@@ -155,10 +128,7 @@ export default function FeaturesGrid() {
             href="/lib/predictions/getting-started"
             className="border-radius"
           >
-            <CardGraphic
-              alt="Predictions icon"
-              src="/assets/features/predictions.svg"
-            />
+            <CardGraphic src="/assets/features/predictions.svg" />
             <CardDetail>
               <h4>AI / ML Predictions</h4>
               <p>

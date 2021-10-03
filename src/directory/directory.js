@@ -401,17 +401,17 @@ const directory = {
         ],
       },
       geo: {
-        title: "Geo",
+        title: "Geo (Developer Preview)",
         items: [
           {
             title: "Getting started",
             route: "/lib/geo/getting-started",
-            filters: ["android", "js"],
+            filters: ["js"],
           },
           {
             title: "Maps",
             route: "/lib/geo/maps",
-            filters: ["android", "js"],
+            filters: ["js"],
           },
           {
             title: "Location Search",
@@ -421,7 +421,7 @@ const directory = {
           {
             title: "Use existing AWS resources",
             route: "/lib/geo/existing-resources",
-            filters: ["android", "js"],
+            filters: ["js"],
           },
         ],
       },
@@ -688,11 +688,6 @@ const directory = {
             title: "Upgrading Amplify packages",
             route: "/lib/troubleshooting/upgrading",
             filters: ["flutter", "js"],
-          },
-          {
-            title: "TypeScript strict mode",
-            route: "/lib/troubleshooting/strict-mode",
-            filters: ["js"],
           },
         ],
       },
@@ -1264,7 +1259,7 @@ const directory = {
         ],
       },
       geo: {
-        title: "Geo",
+        title: "Geo (Developer Preview)",
         items: [
           {
             title: "Maps",
