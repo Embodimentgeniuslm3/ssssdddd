@@ -1,0 +1,29 @@
+import { readFileSync } from "fs";
+import matter from "gray-matter";
+import renderToString from "next-mdx-remote/render-to-string";
+import hydrate from "next-mdx-remote/hydrate";
+
+const components = {
+  // overrides
+};
+
+export default function TestPage({ source }) {
+  return hydrate(source, { components });
+}
+
+export async function getStaticProps() {
+  const { content, data: scope } = matter(
+    readFileSync("../docs/docs/docs.md", "utf8")
+      // TODO Use babel plugin to support these
+      .split("class=")
+      .join("className=")
+      .split("allowfullscreen")
+      .join("allowFullScreen")
+      .split("frameborder")
+      .join("frameBorder")
+  );
+
+  const source = await renderToString(content, { components, scope });
+
+  return { props: { source, scope } };
+}
