@@ -1,0 +1,9 @@
+{
+    "title": "Storage",
+    "items": [
+        "s3-album",
+        "s3-image",
+        "tracking-events",
+        "customization"
+    ]
+}
