@@ -13,7 +13,7 @@
     "front-matter": "^3.1.0",
     "fs-extra": "^8.1.0",
     "html-entities": "^1.2.1",
-    "marked": "0.8.0",
+    "marked": "4.0.10",
     "parse5": "^5.1.1",
     "prismjs": "^1.21.0",
     "traverse": "^0.6.6",
